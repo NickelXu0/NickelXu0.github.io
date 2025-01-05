@@ -2833,6 +2833,8 @@ ul {
   z-index: 1;
   width: 440px;
   height: 440px;
+  
+  object-fit: cover;
 }
 
 /* line 65, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_live_stareams.scss */
@@ -2915,15 +2917,29 @@ ul {
 
 /* line 3, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
 .Latest_War .Latest_War_text {
-  background-image: url("../img/NH.png");
+  background-image: url("../img/IMG_2368.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 580px;
+  height: 300px;
   position: relative;
   z-index: 1;
   margin-bottom: 40px;
 }
+
+.Latest_War .Latest_War_text .img1 {
+  
+  position: center;
+  height: 300px;
+  width: 1200px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  object-fit: cover;
+  
+}
+
+
 
 @media (max-width: 991px) {
   /* line 3, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
@@ -2949,6 +2965,7 @@ ul {
   transition: all 0.6s ease 0s;
 }
 
+
 /* line 28, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
 .Latest_War .Latest_War_text .btn_2 {
   position: absolute;
@@ -2963,6 +2980,8 @@ ul {
   width: 200px;
   padding: 18.5px 0;
 }
+
+
 
 /* line 43, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_Latest_War.scss */
 .Latest_War .Latest_War_text:hover:after {
